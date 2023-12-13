@@ -1,1 +1,4 @@
-{"name":"John", "age":30, "car":null}
+{
+  "username": "smeks",
+  "password": "passy"
+}
