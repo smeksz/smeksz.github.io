@@ -2,7 +2,7 @@ let data, username, password, usernameTXT, passwordTXT, failTXT, failed, dataTXT
 
 async function start(){
     data = {};
-    await fetch("http://localhost:6677/getmark_v2", {
+    await fetch("https://api.codetabs.com/v1/proxy?quest=http://localhost:6677/getmark_v2", {
     method: "POST",
     body: JSON.stringify({
         "number": username,
