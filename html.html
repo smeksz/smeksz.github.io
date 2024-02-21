@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color:antiquewhite;
+}
+h1 {
+    font-size: 60px;
+    font-family: verdana;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+}
+button{
+    font-size: 18px;
+    font-family: verdana;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction:column;
+}
+.size20 {
+    font-size: 30px;
+}
+.size17 {
+    font-size: 17px;
+}
+textarea{
+    resize: none;
+}
+</style>
+<title>teachassist</title>
+</head>
+<body>
+
+<h1>Teach Assist</h1>
+<div class="center">
+    <div class="size20">
+        <p id="fail"> Log in</p>
+    </div>
+        <div class="size17">
+        <textarea id="username" name="username" rows="1" cols="20" placeholder="username"></textarea>
+        <textarea id="password" name="password" rows="1" cols="20" placeholder="password"></textarea>
+        <br>
+        <button id="login">login </button>
+        <p id="data">  </p>
+    </div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
