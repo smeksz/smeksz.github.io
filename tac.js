@@ -1,6 +1,6 @@
 let questionTXT
 
-console.log("HELLO")
+console.log(document.getElementById('question'))
 
 document.getElementById('submitQA').addEventListener("click", function() {
     questionTXT = document.getElementById('question');
