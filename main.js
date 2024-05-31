@@ -1,5 +1,6 @@
 let data, username, password, usernameTXT, passwordTXT, failTXT, failed, dataTXT;
 
+
 async function start(){
     data = {};
     await fetch("http://localhost:6677/getmark_v2", {
